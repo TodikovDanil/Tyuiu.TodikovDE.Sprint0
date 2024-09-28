@@ -3,7 +3,6 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Tyuiu.TodikovDE.Sprint0.Task4_</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PublishAot>true</PublishAot>
@@ -11,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.TodikovDE.Sprint0.Task4.Lib\Tyuiu.TodikovDE.Sprint0.Task4.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.TodikovDE.Sprint0.Task6.V0.Lib\Tyuiu.TodikovDE.Sprint0.Task6.V0.Lib.csproj" />
   </ItemGroup>
 
 </Project>

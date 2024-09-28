@@ -1,22 +1,22 @@
-﻿namespace Tyuiu..Sprint0.Task5.Lib
+﻿namespace Tyuiu.TodikovDE.Sprint0.Task5.V0.Lib
 {
     public class DataService
     {
         public static int Addition(int a, int b)
         {
-            return a + b;
+            return (a + b);
         }
         public static int Subtraction(int a, int b)
         {
-            return a - b;
-        }
-        public static int Multiplication(int a, int b)
-        {
-            return a * b;
+            return a - b; 
         }
         public static int Division(int a, int b)
         {
             return a / b;
+        }
+        public static int Multiplication(int a,int b)
+        {
+            return a * b;
         }
     }
 }

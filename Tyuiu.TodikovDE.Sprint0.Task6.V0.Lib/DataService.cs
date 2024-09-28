@@ -1,10 +1,10 @@
-﻿namespace Tyuiu..Sprint0.Task5.Lib
+﻿namespace Tyuiu.TodikovDE.Sprint0.Task6.V0.Lib
 {
     public class DataService
     {
         public static int Addition(int a, int b)
         {
-            return a + b;
+            return (a + b);
         }
         public static int Subtraction(int a, int b)
         {
@@ -16,7 +16,16 @@
         }
         public static int Division(int a, int b)
         {
-            return a / b;
+            if (b == 0)
+            {
+                Console.WriteLine("Переменная b = {0}, на 0 делить нельзя", b);
+                return -1;
+            }
+            else
+            {
+                return a / b;
+            }
         }
+
     }
 }
